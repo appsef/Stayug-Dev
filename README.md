@@ -7,6 +7,7 @@ ip :
 port : 
 ```
 
+* product_table
 
 Property | Type | Description
 ------------ | ------------- | -------------
@@ -23,6 +24,9 @@ productRate | DECIMAL(3,2) | Product Rate
 codAvailable | TINYINT(1) | 0 = No, 1 = Yes
 returnAvailable | TINYINT(1) | 0 = No, 1 = Yes
 
+
+
+
 > Get list of products(demo) - testing only
 
 To get list of all products
@@ -30,6 +34,8 @@ To get list of all products
 ``` html
 GET <ip>:<port>/products/all 
 ```
+
+
 
 To get sorted list of products 
 
